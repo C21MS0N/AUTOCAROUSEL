@@ -3,7 +3,157 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Image Carousel</title>
+  <title>Image Carousel</title><link
+      rel="stylesheet"
+      data-purpose="Layout StyleSheet"
+      title="Web Awesome"
+      href="/css/app-wa-180076bd62c3b29f3534c3057e9601a2.css?vsn=d"
+    >
+
+      <link
+        rel="stylesheet"
+        href="https://site-assets.fontawesome.com/releases/v7.0.0/css/fontawesome.css"
+      >
+
+      <link
+        rel="stylesheet"
+        href="https://site-assets.fontawesome.com/releases/v7.0.0/css/whiteboard-semibold.css"
+      >
+
+      <link
+        rel="stylesheet"
+        href="https://site-assets.fontawesome.com/releases/v7.0.0/css/thumbprint-light.css"
+      >
+
+      <link
+        rel="stylesheet"
+        href="https://site-assets.fontawesome.com/releases/v7.0.0/css/slab-press-regular.css"
+      >
+
+      <link
+        rel="stylesheet"
+        href="https://site-assets.fontawesome.com/releases/v7.0.0/css/slab-regular.css"
+      >
+
+      <link
+        rel="stylesheet"
+        href="https://site-assets.fontawesome.com/releases/v7.0.0/css/sharp-duotone-thin.css"
+      >
+
+      <link
+        rel="stylesheet"
+        href="https://site-assets.fontawesome.com/releases/v7.0.0/css/sharp-duotone-solid.css"
+      >
+
+      <link
+        rel="stylesheet"
+        href="https://site-assets.fontawesome.com/releases/v7.0.0/css/sharp-duotone-regular.css"
+      >
+
+      <link
+        rel="stylesheet"
+        href="https://site-assets.fontawesome.com/releases/v7.0.0/css/sharp-duotone-light.css"
+      >
+
+      <link
+        rel="stylesheet"
+        href="https://site-assets.fontawesome.com/releases/v7.0.0/css/sharp-thin.css"
+      >
+
+      <link
+        rel="stylesheet"
+        href="https://site-assets.fontawesome.com/releases/v7.0.0/css/sharp-solid.css"
+      >
+
+      <link
+        rel="stylesheet"
+        href="https://site-assets.fontawesome.com/releases/v7.0.0/css/sharp-regular.css"
+      >
+
+      <link
+        rel="stylesheet"
+        href="https://site-assets.fontawesome.com/releases/v7.0.0/css/sharp-light.css"
+      >
+
+      <link
+        rel="stylesheet"
+        href="https://site-assets.fontawesome.com/releases/v7.0.0/css/notdog-duo-solid.css"
+      >
+
+      <link
+        rel="stylesheet"
+        href="https://site-assets.fontawesome.com/releases/v7.0.0/css/notdog-solid.css"
+      >
+
+      <link
+        rel="stylesheet"
+        href="https://site-assets.fontawesome.com/releases/v7.0.0/css/jelly-fill-regular.css"
+      >
+
+      <link
+        rel="stylesheet"
+        href="https://site-assets.fontawesome.com/releases/v7.0.0/css/jelly-duo-regular.css"
+      >
+
+      <link
+        rel="stylesheet"
+        href="https://site-assets.fontawesome.com/releases/v7.0.0/css/jelly-regular.css"
+      >
+
+      <link
+        rel="stylesheet"
+        href="https://site-assets.fontawesome.com/releases/v7.0.0/css/etch-solid.css"
+      >
+
+      <link
+        rel="stylesheet"
+        href="https://site-assets.fontawesome.com/releases/v7.0.0/css/duotone-thin.css"
+      >
+
+      <link
+        rel="stylesheet"
+        href="https://site-assets.fontawesome.com/releases/v7.0.0/css/duotone.css"
+      >
+
+      <link
+        rel="stylesheet"
+        href="https://site-assets.fontawesome.com/releases/v7.0.0/css/duotone-regular.css"
+      >
+
+      <link
+        rel="stylesheet"
+        href="https://site-assets.fontawesome.com/releases/v7.0.0/css/duotone-light.css"
+      >
+
+      <link
+        rel="stylesheet"
+        href="https://site-assets.fontawesome.com/releases/v7.0.0/css/thin.css"
+      >
+
+      <link
+        rel="stylesheet"
+        href="https://site-assets.fontawesome.com/releases/v7.0.0/css/solid.css"
+      >
+
+      <link
+        rel="stylesheet"
+        href="https://site-assets.fontawesome.com/releases/v7.0.0/css/regular.css"
+      >
+
+      <link
+        rel="stylesheet"
+        href="https://site-assets.fontawesome.com/releases/v7.0.0/css/light.css"
+      >
+
+      <link
+        rel="stylesheet"
+        href="https://site-assets.fontawesome.com/releases/v7.0.0/css/brands.css"
+      >
+
+      <link
+        rel="stylesheet"
+        href="https://site-assets.fontawesome.com/releases/v7.0.0/css/chisel-regular.css"
+      >
   <style>
     body {
       font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -15,10 +165,10 @@
       justify-content: center;
       min-height: 100vh;
 
-      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      background: linear-gradient( 135deg, #01dbf8, #fe7b01);
       background-size: 300% 300%;
       animation: gradientShift 15s ease infinite;
-      color: #fff;
+      color: #050505;
     }
 
     @keyframes gradientShift {
@@ -36,15 +186,14 @@
     input[type="file"] {
       margin: 15px 0 25px 0;
       padding: 10px 15px;
-      border: none;
-      border-radius: 6px;
-      background: #00f2ffa0;
-      backdrop-filter: blur(4px);
+      background: rgba(255,255,255,0.08);
+      backdrop-filter: blur(12px);
       color: white;
       font-size: 15px;
       font-weight: 500;
       cursor: pointer;
-      transition: background 0.3s;
+      transition: background 5s;
+      border: 5px solid #050505;
     }
     .carousel {
       position: relative;
@@ -55,7 +204,7 @@
       box-shadow: 0 6px 20px rgba(0,0,0,0.5);
       background: rgba(255,255,255,0.08);
       backdrop-filter: blur(12px);
-      border: 1px solid rgba(255,255,255,0.2);
+      border: 4px solid rgba(5, 5, 5, 0.4);
     }
 
     .carousel img {
@@ -102,8 +251,8 @@
   <input type="file" id="fileInput" multiple accept="image/*">
 
   <div class="carousel" id="carousel">
-    <button class="btn" id="prev">&#10094;</button>
-    <button class="btn" id="next">&#10095;</button>
+    <button class="btn" id="prev"><i class="fa-etch fa-solid fa-angle-left"></i></button>
+    <button class="btn" id="next"><i class="fa-etch fa-solid fa-angle-right"></i></button>
   </div>
 
   <script>
@@ -156,7 +305,7 @@
 
     function resetAutoSlide() {
       clearInterval(autoSlide);
-      autoSlide = setInterval(nextImage, 2500);
+      autoSlide = setInterval(nextImage, 4000);
     }
 
     nextBtn.addEventListener("click", () => { nextImage(); resetAutoSlide(); });
